@@ -147,6 +147,7 @@ img {
     z-index: 1;
     padding-top: 24px;
     padding-bottom: 40px;
+    overflow: auto;
 }
 
 .mob-menu > .container {
@@ -415,7 +416,6 @@ img {
     max-width: 480px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 1px solid red;
     text-align: center;
 }
 
