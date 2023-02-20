@@ -1,0 +1,58 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 450px;
+    }
+
+    .container-mob {
+        max-width: 428px;
+    }
+
+    .mob-menu-list {
+        text-align: start;
+        padding-left: 40px;
+    }
+
+    .mob-address-list {
+        justify-content: start;
+        padding-left: 40px;
+    }
+
+    .mob-tel-link {
+        font-size: 36px;
+    }
+
+    .mob-soc-list {
+        gap: 56px;
+    }
+    
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab-2x.jpg);
+    }
+}
+
+    .hero-container {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 36px;
+        max-width: 320px;
+    }
+
+    .subscribe-input {
+        width: 398px;
+    }
+
+    .modal {
+        width: 392px;
+        height: 586px;
+    }
+
+}
